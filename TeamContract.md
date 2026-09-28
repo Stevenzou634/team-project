@@ -18,13 +18,14 @@ This contract sets out shared expectations and commitments for how our team will
 
 ### Communication
 
-* Which platform will you use for communication outside of class, when required for work on your course project? (Examples: Text message, Discord, WeChat, etc.)
+* Non-face-to-face communications will be done through an established Instagram group chat which includes all members of the team.
+  * Messages that require attention, designated either through the sender addressing the message by name to people it concerns, or as a general address to the team as a whole, must receive some form of acknowledgement (reaction or reply message) within 24 hours.
 
-* Each teammate agrees to respond to messages in at most how long? 1 day? 2 days? Some other amount of time? 
+* Members should notify the rest of the team as soon as possible with regard to critical matters such as being unable to meet an agreed deadline, absences from tutorials or lectures, and other circumstances that may impact their ability to act as a member of the group.
+  * Edits to group project files such as when changes are pushed may be communicated through the group chat as well.
 
-* What things should a teammate notify you about? (Examples: if they think they won't be able to meet a deadline, if they have to miss lecture, etc.)
-
-* Respectful and inclusive behaviour are necessary for smooth and productive communication. What are some respectful and inclusive behaviours you expect when communicating with each other during lectures, labs, or outside of class? (Examples: Actively listening to each team members ideas, giving everyone a chance to meaningfully contribute, etc.)
+* Communications should remain respectful, professional, and constructive.
+  * Communications regarding project contents should be made as clear as reasonably possible with the goal of reducing misunderstandings and improve awareness of the entire codebase.
 
 ---
 
