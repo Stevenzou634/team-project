@@ -29,27 +29,32 @@ This contract sets out shared expectations and commitments for how our team will
 
 ---
 
-### [Other Categories of norms and expectations go here]
+### Project Quality
 
-* Based on your previous teamwork experiences, what other behaviours do you agree upon as a team?
-    - some examples of possible additional team norms and expectations are included in the sample team contract in case your team needs some help getting ideas for what else you want to include.
+* In the event that group members take issue with the quality or validity of a certain section of code, the person who was responsible for that code should be made aware via the team group chat.
+  * The person who was responsible for the code then has ~48 hours to correct the code and inform the other group members.
 
 ---
 
 ## Decision Making
 
-* How will decisions about your team project be made? (Examples: By majority vote, by unanimous vote, etc.)
+* For major project decisions (e.g., design, cross-functional implementation, project targets), decisions should be deliberated and discussed until a unanimous decision can be made.
+* For more minor project decisions, decisions will be made by majority vote. In the event of a tie, decisions will be finalized by coin flip.
+* For urgent decisions (i.e., decisions nearing the end of the project with tight deadlines), decisions can be made at the individual groupmate's discretion.
 
 ---
 ## Conflict resolution
 
-* How will your team resolve conflicts? (Example: by listening to each other's side of the issue and attempting to reach a compromise. By consulting a TA or instructor as a team, if a resolution has not yet been reached.)
+* If a conflict comes up as a result of the difficulties in communication inherent to text messaging, an in person meeting or online video call will be set up to facilitate further discussion.
+* If a resolution absolutely cannot be made, the group will reach out to our tutorial TA, office hours, or the course email as needed.
 
 ---
 
 ## Accountability
 
-* Reliability and accountability are also important aspects of teamwork. What are the responsibilities of each team member? (Example: completing their share of the work in a timely manner, seeking assistance from teammates/TAs/instructors when required, etc.)
+* All groupmates are responsible for timely and up-to-standard completion of assigned tasks.
+  * In the event a groupmate is unable to compelete their task, available groupmates will take over their share of the work, with appropriate documentation of that contribution made (either via commit history or code comments).
+* All group members agree to provide honest and fair peer evaluations in accordance with contributions and effectiveness as team members.
 
 ---
 
