@@ -18,37 +18,43 @@ This contract sets out shared expectations and commitments for how our team will
 
 ### Communication
 
-* Which platform will you use for communication outside of class, when required for work on your course project? (Examples: Text message, Discord, WeChat, etc.)
+* Non-face-to-face communications will be done through an established Instagram group chat which includes all members of the team.
+  * Messages that require attention, designated either through the sender addressing the message by name to people it concerns, or as a general address to the team as a whole, must receive some form of acknowledgement (reaction or reply message) within 24 hours.
 
-* Each teammate agrees to respond to messages in at most how long? 1 day? 2 days? Some other amount of time? 
+* Members should notify the rest of the team as soon as possible with regard to critical matters such as being unable to meet an agreed deadline, absences from tutorials or lectures, and other circumstances that may impact their ability to act as a member of the group.
+  * Edits to group project files such as when changes are pushed may be communicated through the group chat as well.
 
-* What things should a teammate notify you about? (Examples: if they think they won't be able to meet a deadline, if they have to miss lecture, etc.)
-
-* Respectful and inclusive behaviour are necessary for smooth and productive communication. What are some respectful and inclusive behaviours you expect when communicating with each other during lectures, labs, or outside of class? (Examples: Actively listening to each team members ideas, giving everyone a chance to meaningfully contribute, etc.)
+* Communications should remain respectful, professional, and constructive.
+  * Communications regarding project contents should be made as clear as reasonably possible with the goal of reducing misunderstandings and improve awareness of the entire codebase.
 
 ---
 
-### [Other Categories of norms and expectations go here]
+### Project Quality
 
-* Based on your previous teamwork experiences, what other behaviours do you agree upon as a team?
-    - some examples of possible additional team norms and expectations are included in the sample team contract in case your team needs some help getting ideas for what else you want to include.
+* In the event that group members take issue with the quality or validity of a certain section of code, the person who was responsible for that code should be made aware via the team group chat.
+  * The person who was responsible for the code then has ~48 hours to correct the code and inform the other group members.
 
 ---
 
 ## Decision Making
 
-* How will decisions about your team project be made? (Examples: By majority vote, by unanimous vote, etc.)
+* For major project decisions (e.g., design, cross-functional implementation, project targets), decisions should be deliberated and discussed until a unanimous decision can be made.
+* For more minor project decisions, decisions will be made by majority vote. In the event of a tie, decisions will be finalized by coin flip.
+* For urgent decisions (i.e., decisions nearing the end of the project with tight deadlines), decisions can be made at the individual groupmate's discretion.
 
 ---
 ## Conflict resolution
 
-* How will your team resolve conflicts? (Example: by listening to each other's side of the issue and attempting to reach a compromise. By consulting a TA or instructor as a team, if a resolution has not yet been reached.)
+* If a conflict comes up as a result of the difficulties in communication inherent to text messaging, an in person meeting or online video call will be set up to facilitate further discussion.
+* If a resolution absolutely cannot be made, the group will reach out to our tutorial TA, office hours, or the course email as needed.
 
 ---
 
 ## Accountability
 
-* Reliability and accountability are also important aspects of teamwork. What are the responsibilities of each team member? (Example: completing their share of the work in a timely manner, seeking assistance from teammates/TAs/instructors when required, etc.)
+* All groupmates are responsible for timely and up-to-standard completion of assigned tasks.
+  * In the event a groupmate is unable to compelete their task, available groupmates will take over their share of the work, with appropriate documentation of that contribution made (either via commit history or code comments).
+* All group members agree to provide honest and fair peer evaluations in accordance with contributions and effectiveness as team members.
 
 ---
 
