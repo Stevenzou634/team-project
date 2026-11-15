@@ -1,4 +1,4 @@
-# Project Name
+# Astronomy Tracking App
 
 ## Team Information
 
@@ -12,21 +12,35 @@
 
 ## Project Description
 
-### Domain
+### Astronomy
 
-[Project description]
+Hobbyist star trackers face two primary challenges:
+1. The existence of the earth’s curvature means that the visibility and location of certain celestial objects require tools to predict.
+2. Weather conditions heavily impact the ability of precision tools to get a clean picture of these objects.
+
+
+   As such, this app seeks to accomplish two primary tasks:
+
+-  Allow hobbyists to see which celestial objects will be visible from which parts of a planet from certain points in time.
+
+-  Allow hobbyists to see weather forecasts and historical climate data at those locations at those times in order to make informed decisions as to whether they are likely able to get a clean picture.
+
 
 ---
 
 ## User Stories
 
-### User Story 1
+- As an astrophotographer, I want to know when major celestial objects of interest will be above the horizon at my location on the planet.
 
-### User Story 2
 
-### User Story 3
+- As a forgetful astrophotographer, I want to be reminded when a viewing time is near sunrise/sunset or when the sun is in the sky.
 
-(Add additional user stories as needed.)
+
+- As a travelling astrophotographer, I want to know where on the planet I can get the best views of a certain celestial object at a point in time.
+
+
+- As an astrophotographer, I want to be able to know whether the weather at a viewing time/place will be satisfactory for my equipment.
+
 
 ---
 
@@ -38,7 +52,8 @@
 
 ### Use Case 3
 
-(Add additional use cases as needed.)
+### Use Case 4
+
 
 ---
 
@@ -46,10 +61,10 @@
 
 | Team Member | MVP Use Case |
 |-------------|--------------|
-| Name | Use Case |
-| Name | Use Case |
-| Name | Use Case |
-
+| James Fu | Use Case |
+| Laien Zou | Use Case |
+| Austin Zhang | Use Case |
+| Sachkeerat Chhina | Use Case |
 ---
 
 ## Entities
@@ -58,15 +73,14 @@
 
 ### Entity 2
 
-(Add additional entities as needed.)
 
 ---
 
 ## API Usage
 
-**API Name:**
+**API Name:** 
 
-**Documentation:** [Link]
+**Documentation:**
 
 **How it is used in the program:**
 
