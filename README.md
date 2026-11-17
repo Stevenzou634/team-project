@@ -91,13 +91,13 @@ Hobbyist star trackers face two primary challenges:
 
 
 ### Use Case 6
-#### User interacts with list of objects that they saved
-1. The logged-in user chooses to view their saved queries through the UI.
-2. The system retrieves the saved queries associated with the user's account.
-3. If the user has no saved queries, the system informs the user that their saved queries list is empty.
-4. Otherwise, the system displays the user's saved queries.
-5. The user selects a saved query from the list.
-6. The system displays the information associated with the selected query.
+#### User interacts with list of results that they saved
+1. The logged-in user chooses to view their saved results through the UI.
+2. The system retrieves the saved results associated with the user's account.
+3. If the user has no saved results, the system informs the user that their saved results list is empty.
+4. Otherwise, the system displays the user's saved results.
+5. The user selects a saved result from the list.
+6. The system displays the information associated with the selected result.
 
 
 ---
