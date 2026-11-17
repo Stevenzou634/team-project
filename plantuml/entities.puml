@@ -1,0 +1,86 @@
+@startuml entities
+skinparam classAttributeIconSize 0
+
+' Arrow convention (course slides):
+'   A <|-- B   : B extends A
+'   A --> B    : A uses B
+
+abstract class QueryObject <<abstract>> {
+  - observerLocation: ObserverLocation
+  - observerTime: ZonedDateTime
+  + getObserverLocation(): ObserverLocation
+  + getObserverTime(): ZonedDateTime
+}
+
+class LocationQuery {
+  - minAltitude: double
+  + getMinAltitude(): double
+}
+
+class ObjectQuery {
+  - celestialBody: String
+  + getCelestialBody(): String
+}
+
+class ObserverLocation {
+  - latitude: double
+  - longitude: double
+  + getLatitude(): double
+  + getLongitude(): double
+  + isValid(): boolean
+}
+
+class User {
+  - username: String
+  - password: String
+  - savedLocations: List<TrackedLocation>
+  + getUsername(): String
+  + getSavedLocations(): List<TrackedLocation>
+  + saveLocation(result: TrackedLocation): void
+  + removeLocation(result: TrackedLocation): void
+}
+
+class TrackedLocation {
+  - location: ObserverLocation
+  - time: ZonedDateTime
+  - weather: Weather
+  - trackedObjects: List<TrackedObject>
+  + getLocation(): ObserverLocation
+  + getTime(): ZonedDateTime
+  + getWeather(): Weather
+  + getTrackedObjects(): List<TrackedObject>
+  + getVisibleObjects(minAltitude: double): List<TrackedObject>
+}
+
+class TrackedObject {
+  - objectName: String
+  - objectElevation: double
+  - objectAzimuth: double
+  + getObjectName(): String
+  + getObjectElevation(): double
+  + getObjectAzimuth(): double
+  + isVisible(minAltitude: double): boolean
+}
+
+class Weather {
+  - cloudCover: double
+  - precipitationProbability: double
+  - humidity: double
+  - temperature: double
+  - windSpeed: double
+  + getCloudCover(): double
+  + getPrecipitationProbability(): double
+  + getHumidity(): double
+  + getTemperature(): double
+  + getWindSpeed(): double
+}
+
+QueryObject <|-- LocationQuery
+QueryObject <|-- ObjectQuery
+
+QueryObject --> ObserverLocation
+User --> TrackedLocation
+TrackedLocation --> ObserverLocation
+TrackedLocation --> TrackedObject
+TrackedLocation --> Weather
+@enduml
