@@ -3,6 +3,7 @@ package app;
 import javax.swing.*;
 import javax.swing.plaf.FontUIResource;
 import java.awt.*;
+import java.util.Locale;
 
 public class Main {
     private static final int FONT_SIZE = 18;
@@ -10,6 +11,11 @@ public class Main {
     private static final Dimension MIN_WINDOW_SIZE = new Dimension(600, 450);
 
     public static void main(String[] args) {
+        // Use English for built-in Swing text (e.g. dialog titles and "OK" buttons),
+        // so the app looks the same regardless of the computer's language.
+        Locale.setDefault(Locale.ENGLISH);
+        JComponent.setDefaultLocale(Locale.ENGLISH);
+
         setDefaultFont(new FontUIResource("SansSerif", Font.PLAIN, FONT_SIZE));
 
         final JFrame application = new AppBuilder()
