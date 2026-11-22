@@ -4,13 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The View Model for the Logged In View.
+ * The View Model shared by the views shown while a user is logged in (MainView and UserView).
  */
 public class LoggedInViewModel {
 
     private final List<LoggedInViewModelListener> listeners = new ArrayList<>();
 
-    public static final String VIEW_NAME = "logged in";
+    /** The main view, shown right after logging in. */
+    public static final String VIEW_NAME = "main";
+
+    /** The user view, with account actions such as changing the password and logging out. */
+    public static final String USER_VIEW_NAME = "user";
 
     private LoggedInState state = new LoggedInState();
 
@@ -29,12 +33,6 @@ public class LoggedInViewModel {
     public void notifyStateChanged() {
         for (LoggedInViewModelListener listener : listeners) {
             listener.stateChanged();
-        }
-    }
-
-    public void notifyPasswordChangeUpdate() {
-        for (LoggedInViewModelListener listener : listeners) {
-            listener.passwordChanged();
         }
     }
 }
