@@ -29,7 +29,7 @@ public class MainView extends JPanel implements LoggedInViewModelListener {
         this.loggedInViewModel = loggedInViewModel;
         this.loggedInViewModel.addListener(this);
 
-        final JLabel title = new JLabel("Astronomy Tracker");
+        final JLabel title = new JLabel("Azimuth");
         title.setFont(title.getFont().deriveFont(Font.BOLD, title.getFont().getSize() * TITLE_FONT_SCALE));
 
         final JPanel userArea = new JPanel(new FlowLayout(FlowLayout.RIGHT));
